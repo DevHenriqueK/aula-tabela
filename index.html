@@ -1,60 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Henrique Kaddatz">
-    <meta name="description" content="Essa aula é sobre tabelas.">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Henrique Kaddatz" />
+    <meta name="description" content="Essa aula é sobre tabelas." />
+    <link rel="stylesheet" href="style.css" />
     <title>Tabelas</title>
 
     <style>
-        th, td{
-    border: solid, 1px, black;
-}
+      th,
+      td {
+        border: solid, 1px, black;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Tabelas</h1>
 
     <table>
-        <thead>
-            <tr>
-                <th>Produto</th>
-                <th>Quantidade</th>
-                <th>Preço</th>
-                <th>Black Friday</th>
-            </tr>
-        </thead>
+      <thead>
+        <tr>
+          <th>Produto</th>
+          <th>Quantidade</th>
+          <th>Preço</th>
+          <th>Black Friday</th>
+        </tr>
+      </thead>
 
-        <tbody>
-            <tr>
-                <td>PlayStation 5</td>
-                <td>500 un.</td>
-                <td>R$10,00</td>
-                <td>Sim</td>
-            </tr>
+      <tbody>
+        <tr>
+          <td>PlayStation 3</td>
+          <td>500 un.</td>
+          <td>R$10,00</td>
+          <td>Sim</td>
+        </tr>
 
-            <tr>
-                <td>Guitarra</td>
-                <td>2600 un.</td>
-                <td>R$70,00</td>
-                <td rowspan="2">Não</td>
-            </tr>
+        <tr>
+          <td>Guitarra</td>
+          <td>2600 un.</td>
+          <td>R$70,00</td>
+          <td rowspan="2">Não</td>
+        </tr>
 
-            <tr>
-                <td>Bola de Futebol</td>
-                <td>10000 un.</td>
-                <td>R$5,00</td>
-            </tr>
-        </tbody>
+        <tr>
+          <td>Bola de Futebol</td>
+          <td>10000 un.</td>
+          <td>R$5,00</td>
+        </tr>
+      </tbody>
 
-        <tfoot>
-            <tr>
-                <td colspan="3">TOTAL</td>
-                <td>R$30,00</td>
-            </tr>
-        </tfoot>
+      <tfoot>
+        <tr>
+          <td colspan="3">TOTAL</td>
+          <td>R$30,00</td>
+        </tr>
+      </tfoot>
     </table>
-</body>
+  </body>
 </html>
